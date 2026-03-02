@@ -1,3 +1,6 @@
+let users = [];
+let idCounter = 1;
+
 export const createUser = (req, res) => {
     try {
         const { name, email } = req.body;
